@@ -1400,6 +1400,10 @@ static const char *strMainNetDNSSeed[][2] = {
      "9qVg8vtZLnqrhJa6ZUdIkT9iZSgGVuneTdj9-kU0G9i1Ew3kxGIHJDEXKQ2G1i1R5aQsY1O6VhCBvzqTfT2an8TqphoVC1lKJh42Ep37kWlSeXzTC618y1B1EeTpLuIw9"
      "WDj-xxABWVPyTgxAH-NjjrWtdXrkgHVWDe4ZsU-ii0enaIGS9MvYMu5emYdilTLEX4JD3giqEtcxCE3jhJqSC2HO-K9YWuJkRVBix261C9UaRcO3zqOK4ywBNM6LqkVQ5"
      "tyRg4CGy565~Wl-texl0FZLiWIfqUG07txmGHWS1OvsvGbm24ghsxn63FT8yEWgvB7glAIZuwhPZ~hJ~zthbs-5AGeurNlrX9PZhrPXTTVh8XhnYjdtLa-QOLg2tgAAAA", "mzvsw6bwae6ul33b5zege5xie2cevno6vgik6nrb6lw74cn3wmdq.b32.i2p"},
+    {"KAot07F4L~XdvOTGAkwutfhp7-~DMp7LntsadnCmsnUI~9BtbgnybcNpEFwLoIRIlriNQqGZm6SrtcXiJVxToqBTpL6QFEEQPu3hSc3Xp0Xgm7JKRyMFTUnxTdS-5afMU"
+     "zMpJK-DEy0tBLcdDgpmpfejdNqoqyHisi7xVECeMB8lHmaq3K9VV2-Ou49aJQe9GuoirSp9RXbsiytjd~UldPEz5OPVnEf1KBiUc6iMntOc3Zuqy0kVEGAFs6nQV8dvUk"
+     "WrI3f5in3NXKvj4KHz02mDusNgM1XW4pYcZG0EV4XAncVGBie6NQ6E0Lqh8EqFW6DMRWEsl0EYVygA~yC9VyTfNXp~JjOhHdigM1v0xuumEc7lxV4m1AgOjJzFnN~ms2i"
+     "bvDotxBCzwkVfDpyzi6mFsMvBN99NlfblLUl6Xq73ydTgBoeKZIOR17LiP0Xkc4flCXCgW1teRzcIE2Tu57XJW6LRGnnkyH1coSemdGsst4yh0h~sR5xfF1458hGyAAAA", "ewcxh2bqjmu7uqekpso3ubkwsylfr6ucth46wu72vlack573si4a.b32.i2p"},
 #endif
     {NULL, NULL}
 };
