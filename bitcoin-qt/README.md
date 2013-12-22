@@ -15,7 +15,7 @@ out collectively by the network. Bitcoin is also the name of the open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Bitcoin client sofware, see http://www.bitcoin.org.
+the Bitcoin client software, see http://www.bitcoin.org.
 
 License
 -------
@@ -38,7 +38,7 @@ submitter will be asked to start a discussion (if they haven't already) on the
 
 The patch will be accepted if there is broad consensus that it is a good thing.
 Developers should expect to rework and resubmit patches if the code doesn't
-match the project's coding conventions (see `doc/coding.txt`) or are
+match the project's coding conventions (see `doc/coding.md`) or are
 controversial.
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
