@@ -37,7 +37,7 @@ LIBS= \
  -l ssl \
  -l crypto
 
-DEFS=-D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -DBOOST_SPIRIT_THREADSAFE
+DEFS=-D_MT -DWIN32 -D_WINDOWS -DBOOST_THREAD_USE_LIB -DBOOST_SPIRIT_THREADSAFE -DBOOST_THREAD_PROVIDES_GENERIC_SHARED_MUTEX_ON_WIN
 DEBUGFLAGS=-g
 xCXXFLAGS=-O2 -w -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter $(DEBUGFLAGS) $(DEFS) $(INCLUDEPATHS) $(CXXFLAGS)
 # enable: ASLR, DEP and large address aware
@@ -62,6 +62,7 @@ LIBS += -l mingwthrd -l kernel32 -l user32 -l gdi32 -l comdlg32 -l winspool -l w
 
 ifdef USE_NATIVE_I2P
 	DEFS += -DUSE_NATIVE_I2P -I../../i2psam/
+	DEFS += -DFD_SETSIZE=1024
 	LIBS += -L../../i2psam/
 	LIBS += -li2psam
 endif
@@ -141,7 +142,7 @@ endif
 
 ifdef USE_NATIVE_I2P
 i2psam:
-	$(MAKE) -C ../../i2psam -f makefile.linux-mingw
+	$(MAKE) -C ../../i2psam -f makefile.linux-mingw DEFINES="$(DEFS)"
 endif
 
 

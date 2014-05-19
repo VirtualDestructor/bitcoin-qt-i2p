@@ -8,10 +8,6 @@
 #include "addresstablemodel.h"
 #include "transactiontablemodel.h"
 
-#ifdef USE_NATIVE_I2P
-#include "i2p.h"
-#endif
-
 #include "alert.h"
 #include "main.h"
 #include "checkpoints.h"
@@ -19,6 +15,10 @@
 
 #include <QDateTime>
 #include <QTimer>
+
+#ifdef USE_NATIVE_I2P
+#include "i2p.h"
+#endif
 
 static const int64 nClientStartupTime = GetTime();
 

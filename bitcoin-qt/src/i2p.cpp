@@ -63,7 +63,9 @@ void StreamSessionAdapter::SessionHolder::reborn() const
         return;
     std::auto_ptr<SAM::StreamSession> newSession(new SAM::StreamSession(*session_));
     if (!newSession->isSick() && session_->isSick())
+    {
         session_ = newSession;
+    }
 }
 
 //--------------------------------------------------------------------------------------------------
